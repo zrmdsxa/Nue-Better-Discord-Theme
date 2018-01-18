@@ -1,5 +1,10 @@
-//META{"name":"Nue","description":"Nue","author":"Nue","version":"1.4"}*//
+//META{"name":"Nue","description":"Nue","author":"Nue","version":"1.5"}*//
 /*
+1.5:
+.theme-dark .layers-20RVFW, .layer-kosS71- black background color covering the whole thing
+
+;
+
 1.4:
 .appMount-14L89u - very top
 .theme-dark .title-qAcLxz - from channel name to question mark area
@@ -67,11 +72,12 @@
 .guild-channels,
 .guild-header header,
 .guilds-wrapper,
-.layer,.layers,
+.layer,.layers,.layer-kosS71,
 .links,
 .message-group-blocked,
 .private-channels,
 .search-bar,
+.theme-dark .layers-20RVFW,
 .theme-dark .title-qAcLxz,
 .title-wrap,
 .typing {
