@@ -1,9 +1,8 @@
 //META{"name":"Nue","description":"Nue","author":"Nue","version":"1.5"}*//
 /*
 1.5:
-.theme-dark .layers-20RVFW, .layer-kosS71- black background color covering the whole thing
-
-;
+.layers-20RVFW, .layer-kosS71- black background color covering the whole thing
+.typing-3eiiL_ - user is typing
 
 1.4:
 .appMount-14L89u - very top
@@ -47,7 +46,8 @@
 .container-2OU7Cz,
 .container-iksrDt,
 .container-RYiLUQ,
-.theme-dark .chat form
+.chat form,
+.typing-3eiiL_
 {
     background: rgba(0,0,0,0.0) !important;
 }
@@ -72,13 +72,13 @@
 .guild-channels,
 .guild-header header,
 .guilds-wrapper,
-.layer,.layers,.layer-kosS71,
+.layer,.layers, .layers-20RVFW, .layer-kosS71,
 .links,
 .message-group-blocked,
 .private-channels,
 .search-bar,
-.theme-dark .layers-20RVFW,
-.theme-dark .title-qAcLxz,
+
+.title-qAcLxz,
 .title-wrap,
 .typing {
     background: rgba(0,0,0,0.4) !important;
