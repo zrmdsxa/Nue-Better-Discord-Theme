@@ -1,5 +1,29 @@
-//META{"name":"Nue","description":"Nue","author":"Nue","version":"1.5"}*//
+//META{"name":"Nue","description":"Nue","author":"Nue","version":"1.6"}*//
 /*
+1.6:
+discord 0.301
+
+0 transparency
+
+.container-PNkimc
+.contentHoveredText-2D9B-x
+element.style
+.guild-inner
+.layer-3QrUeG
+.layers-3iHuyZ
+.members-1998pB
+::-webkit-scrollbar-thumb
+
+0.4 transparency
+
+.channels-Ie2l6A
+.container-2lgZY8
+.title-3qD0b-
+
+custom color
+::-webkit-scrollbar-thumb
+
+
 1.5:
 .layers-20RVFW, .layer-kosS71- black background color covering the whole thing
 .typing-3eiiL_ - user is typing
@@ -43,10 +67,13 @@
 
 /*Transparency 0.0*/
 
-.container-2OU7Cz,
-.container-iksrDt,
-.container-RYiLUQ,
+.contentHoveredText-2D9B-x,
+.container-2OU7Cz,.container-iksrDt,.container-RYiLUQ,
 .chat form,
+element.style,
+.guild-inner,
+.layers-3iHuyZ, .layer-3QrUeG,
+.members-1998pB,
 .typing-3eiiL_
 {
     background: rgba(0,0,0,0.0) !important;
@@ -60,11 +87,11 @@
 #rtc-connection,
 .account,
 .appMount-14L89u,
-.channels-3g2vYe,
+.channels-3g2vYe, .channels-Ie2l6A,
 .channels-wrap,
 .chat,
 .chat-empty,
-.container-3lnMWU,
+.container-3lnMWU,.container-2lgZY8,.container-PNkimc,
 .content,
 .divider-red span,
 .friends-header,
@@ -72,12 +99,12 @@
 .guild-channels,
 .guild-header header,
 .guilds-wrapper,
-.layer,.layers, .layers-20RVFW, .layer-kosS71,
+.layer,.layers, .layers-20RVFW, .layer-kosS71, 
 .links,
 .message-group-blocked,
 .private-channels,
 .search-bar,
-
+.title-3qD0b-,
 .title-qAcLxz,
 .title-wrap,
 .typing {
@@ -442,8 +469,12 @@ div.channel.channel-text.selected {
     background: #39f;
     transition: background .2s ease-in;
 }
-
+1
 .channel-members .member:hover,
 .channel-members .popout-open {
     background: rgba(255,255,255,0.07) !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #7289da !important;
 }
