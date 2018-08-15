@@ -1,5 +1,44 @@
-//META{"name":"Nue","description":"Nue","author":"Nue","version":"1.6"}*//
+//META{"name":"Nue","description":"Nue","author":"Nue","version":"0.0.301"}*//
 /*
+0.0.301     -start using discord's version number
+
+0 transparency
+
+.card-FDVird:before
+.card-7JP0BX
+.chat-3bRxxu form
+.container-16j22k
+.container-PNkimc
+.content-yTz4x3
+.content-region
+.headerBar-UHpsPw
+.header-1RC2Wb
+.messageGroupBlockedBtn-1PBBh-
+.messageGroupBlocked-3wrQQX
+.messagesWrapper-3lZDfY
+.sidebar-region
+.theme-dark .container-2Thooq
+
+0.4 transparency
+
+.activityFeed-28jde9
+.chat-3bRxxu
+.guildsWrapper-5TJh6A
+
+0.55 transparency
+.channels-Ie2l6A
+.guildsWrapper-5TJh6A
+.ui-standard-sidebar-view
+
+removed 
+.private-channels
+
+
+1.6.1
+
+0 transparency
+.typing-2GQL18
+
 1.6:
 discord 0.301
 
@@ -67,42 +106,55 @@ custom color
 
 /*Transparency 0.0*/
 
+.card-7JP0BX,.card-FDVird:before,
+.chat-3bRxxu form,
+.container-16j22k,
+.content-yTz4x3,
 .contentHoveredText-2D9B-x,
-.container-2OU7Cz,.container-iksrDt,.container-RYiLUQ,
+.content-region,
+.container-2OU7Cz,.container-iksrDt,.container-RYiLUQ,.container-PNkimc,
 .chat form,
 element.style,
 .guild-inner,
+.headerBar-UHpsPw,
+.header-1RC2Wb,
 .layers-3iHuyZ, .layer-3QrUeG,
 .members-1998pB,
-.typing-3eiiL_
+.messageGroupBlockedBtn-1PBBh-,
+.messageGroupBlocked-3wrQQX,
+.messagesWrapper-3lZDfY,
+.theme-dark .container-2Thooq,
+.sidebar-region,
+.typing-3eiiL_, .typing-2GQL18
 {
     background: rgba(0,0,0,0.0) !important;
 }
 
 /*Transparency 0.4*/
 
+
 #voice-connection,
 #friends,
 #friends .btn,
 #rtc-connection,
 .account,
+.activityFeed-28jde9,
 .appMount-14L89u,
-.channels-3g2vYe, .channels-Ie2l6A,
+.channels-3g2vYe, 
 .channels-wrap,
-.chat,
+.chat, .chat-3bRxxu,
 .chat-empty,
-.container-3lnMWU,.container-2lgZY8,.container-PNkimc,
-.content,
+.container-3lnMWU,.container-2lgZY8,
+.content, 
 .divider-red span,
 .friends-header,
 .friends-table,
 .guild-channels,
 .guild-header header,
-.guilds-wrapper,
+.guilds-wrapper, 
 .layer,.layers, .layers-20RVFW, .layer-kosS71, 
 .links,
 .message-group-blocked,
-.private-channels,
 .search-bar,
 .title-3qD0b-,
 .title-qAcLxz,
@@ -110,6 +162,15 @@ element.style,
 .typing {
     background: rgba(0,0,0,0.4) !important;
 }
+
+/*Transparency 0.55*/
+.channels-Ie2l6A,
+.guildsWrapper-5TJh6A,
+.ui-standard-sidebar-view
+{
+    background: rgba(0,0,0,0.55) !important;
+}
+
 /*the profile area becomes transparent too
 this fixes that
 */
