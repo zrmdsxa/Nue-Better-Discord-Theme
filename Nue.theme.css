@@ -1,5 +1,26 @@
-//META{"name":"Nue","description":"Nue","author":"Nue","version":"0.0.301"}*//
+//META{"name":"Nue","description":"Nue","author":"Nue","version":"0.0.305"}*//
 /*
+
+0.0.305
+
+0.4 transparency
+
+.sidebarRegion-VFTUkN
+.wrapper-1Rf91z
+
+0.0.303
+
+.app changed to .appMount-3lHmkl
+
+0.4 transparency
+
+.applicationStore-1pNvnv
+.container-3gCOGc
+.gameLibrary-TTDw4Y
+.standardSidebarView-3F1I7i
+.contentRegion-3nDuYy
+
+
 0.0.301     -start using discord's version number
 
 0 transparency
@@ -89,7 +110,7 @@ custom color
 
 /* Background */
 
-.app {
+.appMount-3lHmkl {
     background-image: url("https://i.imgur.com/UkBIGDy.jpg") !important;
     background-size: cover;
     background-repeat: no-repeat;
@@ -139,16 +160,18 @@ element.style,
 #rtc-connection,
 .account,
 .activityFeed-28jde9,
+.applicationStore-1pNvnv,
 .appMount-14L89u,
 .channels-3g2vYe, 
 .channels-wrap,
 .chat, .chat-3bRxxu,
 .chat-empty,
-.container-3lnMWU,.container-2lgZY8,
-.content, 
+.container-3lnMWU,.container-2lgZY8,.container-3gCOGc,
+.content, .contentRegion-3nDuYy,
 .divider-red span,
 .friends-header,
 .friends-table,
+.gameLibrary-TTDw4Y,
 .guild-channels,
 .guild-header header,
 .guilds-wrapper, 
@@ -156,10 +179,14 @@ element.style,
 .links,
 .message-group-blocked,
 .search-bar,
+.sidebarRegion-VFTUkN,
+.standardSidebarView-3F1I7i,
+.theme-dark .member-3W1lQa:hover .content-OzHfo4,
 .title-3qD0b-,
 .title-qAcLxz,
 .title-wrap,
-.typing {
+.typing,
+.wrapper-1Rf91z {
     background: rgba(0,0,0,0.4) !important;
 }
 
