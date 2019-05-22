@@ -1,135 +1,27 @@
-//META{"name":"Nue","description":"Nue","author":"Nue","version":"0.0.305"}*//
-/*
-
-0.0.305
-
-0.4 transparency
-
-.sidebarRegion-VFTUkN
-.wrapper-1Rf91z
-
-0.0.303
-
-.app changed to .appMount-3lHmkl
-
-0.4 transparency
-
-.applicationStore-1pNvnv
-.container-3gCOGc
-.gameLibrary-TTDw4Y
-.standardSidebarView-3F1I7i
-.contentRegion-3nDuYy
-
-
-0.0.301     -start using discord's version number
-
-0 transparency
-
-.card-FDVird:before
-.card-7JP0BX
-.chat-3bRxxu form
-.container-16j22k
-.container-PNkimc
-.content-yTz4x3
-.content-region
-.headerBar-UHpsPw
-.header-1RC2Wb
-.messageGroupBlockedBtn-1PBBh-
-.messageGroupBlocked-3wrQQX
-.messagesWrapper-3lZDfY
-.sidebar-region
-.theme-dark .container-2Thooq
-
-0.4 transparency
-
-.activityFeed-28jde9
-.chat-3bRxxu
-.guildsWrapper-5TJh6A
-
-0.55 transparency
-.channels-Ie2l6A
-.guildsWrapper-5TJh6A
-.ui-standard-sidebar-view
-
-removed 
-.private-channels
-
-
-1.6.1
-
-0 transparency
-.typing-2GQL18
-
-1.6:
-discord 0.301
-
-0 transparency
-
-.container-PNkimc
-.contentHoveredText-2D9B-x
-element.style
-.guild-inner
-.layer-3QrUeG
-.layers-3iHuyZ
-.members-1998pB
-::-webkit-scrollbar-thumb
-
-0.4 transparency
-
-.channels-Ie2l6A
-.container-2lgZY8
-.title-3qD0b-
-
-custom color
-::-webkit-scrollbar-thumb
-
-
-1.5:
-.layers-20RVFW, .layer-kosS71- black background color covering the whole thing
-.typing-3eiiL_ - user is typing
-
-1.4:
-.appMount-14L89u - very top
-.theme-dark .title-qAcLxz - from channel name to question mark area
-.theme-dark .chat form - type message area
-.container-2OU7Cz - black background color covering the whole thing
-.channels-3g2vYe  - channels area to the bottom
-
-1.3: some new crazy .container-RYiLUQ update
-.container-RYiLUQ - the server channels text+voice
-.container-3lnMWU - the voice connection status
-.container-iksrDt - username and buttons area
-
--fixed emoji window area
-
-1.2: discord .layer update
--added .layer
-1.1: discord .layers update broke themes
--added .layers
-*/
+//META{"name":"Nue","description":"Nue","author":"Nue","version":"0.0.305A"}*//
 
 /* Background */
 
-.appMount-3lHmkl {
+body>div:last-of-type , .appMount-3lHmkl {
     background-image: url("https://i.imgur.com/UkBIGDy.jpg") !important;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
 }
 
 /*Transparent*/
 /*messages-wrapper and scroller is the main chat area*/
-
-
 .messages-wrapper,
 .scroller {
+    background-image: transparent !important;
     background: transparent !important;
 }
 
 /*Transparency 0.0*/
 
+.activityFeed-1C0EmJ,
 .card-7JP0BX,.card-FDVird:before,
 .chat-3bRxxu form,
-.container-16j22k,
+.container-16j22k,.container-1r6BKw,
 .content-yTz4x3,
 .contentHoveredText-2D9B-x,
 .content-region,
@@ -202,7 +94,7 @@ element.style,
 this fixes that
 */
 #user-profile-modal .guilds, .section{
-	background-color: rgba(255,255,255,1) !important;
+    background-color: rgba(255,255,255,1) !important;
 }
 
 /*
@@ -346,15 +238,15 @@ div.channel.channel-text.selected {
 
 /*Friends*/
 .icon-friends {
-	background-color: rgba(0,0,0,0.35) !important;
+    background-color: rgba(0,0,0,0.35) !important;
 }
 
 #friends .btn:hover {
-	background-color: rgba(0,0,0,0.25) !important;
+    background-color: rgba(0,0,0,0.25) !important;
 }
 
 .friends-header {
-	border-bottom-color: rgba(0,0,0,0.25) !important;
+    border-bottom-color: rgba(0,0,0,0.25) !important;
 }
 
 /*User settings*/
