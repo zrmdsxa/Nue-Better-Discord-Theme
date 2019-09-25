@@ -11,7 +11,6 @@
 /*Transparency 0.0*/
 
 .activityFeed-1C0EmJ,
-
 .card-7JP0BX,.card-FDVird:before,
 .chat-3bRxxu,
 .container-16j22k,.container-1r6BKw,
@@ -19,6 +18,7 @@
 .contentHoveredText-2D9B-x,
 .contentRegionScroller-26nc1e,
 .container-2OU7Cz,.container-iksrDt,.container-RYiLUQ,.container-PNkimc,
+.friendsTableBody-1ZhKif,
 .headerBar-UHpsPw,
 .header-1RC2Wb,
 .layers-3iHuyZ, .layer-3QrUeG,
@@ -38,7 +38,6 @@
 }
 
 /*Transparency 0.4*/
-
 
 .activityFeed-28jde9,
 .applicationStore-1pNvnv,
@@ -68,3 +67,5 @@
 ::-webkit-scrollbar-thumb {
     background-color: #7289da !important;
 }
+
+
