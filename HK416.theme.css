@@ -19,6 +19,7 @@
 .contentHoveredText-2D9B-x,
 .contentRegionScroller-26nc1e,
 .container-2OU7Cz,.container-iksrDt,.container-RYiLUQ,.container-PNkimc,
+.embedFull-2tM8--,
 .friendsTableBody-1ZhKif,
 .headerBar-UHpsPw,
 .header-1RC2Wb,
@@ -28,12 +29,15 @@
 .messageGroupBlockedBtn-1PBBh-,
 .messageGroupBlocked-3wrQQX,
 .messagesWrapper-3lZDfY,
-.scroller-1JbKMe, .scroller-2TZvBN,
+.placeholderWrapper-3FaLtZ,
+.scrollableContainer-38zsVD,
+.scroller-1JbKMe, .scroller-2TZvBN, .scroller-9moviB, .scroller-1IIF0A,
 .sidebar-2K8pFh,
 .sidebarRegionScroller-3MXcoP,
 .theme-dark .container-2Thooq,
 .title-3qD0b-,
-.typing-3eiiL_, .typing-2GQL18
+.typing-3eiiL_, .typing-2GQL18,
+.wrapper-3UweLa
 {
     background: rgba(0,0,0,0.0) !important;
 
