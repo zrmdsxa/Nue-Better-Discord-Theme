@@ -13,8 +13,9 @@
 .activityFeed-1C0EmJ,
 .bg-h5JY_x,
 .card-7JP0BX,.card-FDVird:before,
+.channelTextArea-rNsIhG,
 .chat-3bRxxu,
-.container-16j22k,.container-1r6BKw,
+.container-16j22k,.container-1r6BKw,.container-1D34oG,
 .content-yTz4x3,
 .contentHoveredText-2D9B-x,
 .contentRegionScroller-26nc1e,
@@ -29,6 +30,7 @@
 .messageGroupBlockedBtn-1PBBh-,
 .messageGroupBlocked-3wrQQX,
 .messagesWrapper-3lZDfY,
+.nowPlayingColumn-2sl4cE,
 .placeholderWrapper-3FaLtZ,
 .scrollableContainer-38zsVD,
 .scroller-1JbKMe, .scroller-2TZvBN, .scroller-9moviB, .scroller-1IIF0A,
@@ -68,7 +70,8 @@
 .standardSidebarView-3F1I7i,
 .theme-dark .member-3W1lQa:hover .content-OzHfo4,
 .title-qAcLxz,
-.wrapper-1Rf91z {
+.wrapper-1Rf91z,.wrapper-3D2qGf
+{
     background: rgba(0,0,0,0.4) !important;
 }
 ::-webkit-scrollbar-thumb {
