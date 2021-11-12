@@ -7,15 +7,17 @@
     background-size: cover !important;
     background-repeat: no-repeat !important;
 }
-
 /*Transparency 0.0*/
+.app-2rEoOp,
+
+
 
 .activityFeed-1C0EmJ,
 .bg-h5JY_x,
 .card-7JP0BX,.card-FDVird:before,
 .channelTextArea-rNsIhG,
 .chat-3bRxxu,
-.container-16j22k,.container-1r6BKw,.container-1D34oG,
+.container-16j22k,.container-1r6BKw,.container-1D34oG,.container-2wlB3z,
 .content-yTz4x3,
 .contentHoveredText-2D9B-x,
 .contentRegionScroller-26nc1e,
@@ -39,7 +41,7 @@
 .theme-dark .container-2Thooq,
 .title-3qD0b-,
 .typing-3eiiL_, .typing-2GQL18,
-.wrapper-3UweLa
+.wrapper-3UweLa,.wrapper-3NnKdC
 {
     background: rgba(0,0,0,0.0) !important;
 
@@ -50,7 +52,7 @@
 .activityFeed-28jde9,
 .applicationStore-1pNvnv,
 .appMount-14L89u,
-.app-2rEoOp,
+
 .channels-3g2vYe, 
 .container-3lnMWU,.container-2lgZY8,.container-3gCOGc,
 .contentRegion-3nDuYy,
@@ -65,7 +67,7 @@
 .panels-j1Uci_,
 .privateChannels-1nO12o,
 .recentlyPlayedContainer-2F3MqS,
-.scrollableContainer-2NUZem,
+.scrollableContainer-2NUZem,.scroller-1Bvpku,
 .sidebarRegion-VFTUkN,
 .standardSidebarView-3F1I7i,
 .theme-dark .member-3W1lQa:hover .content-OzHfo4,
@@ -80,4 +82,8 @@
 
 .messageGroupBlocked-3wrQQX {
 	display: none;
+}
+
+.bd-minimal .guilds-1SWlCJ {
+    width: 70px;
 }
