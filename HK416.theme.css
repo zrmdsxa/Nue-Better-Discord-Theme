@@ -1,87 +1,47 @@
-//META{"name":"HK416","description":"HK416","author":"Nue","version":"1.0.9003"}*//
+//META{"name":"HK416","description":"HK416","author":"Nue","version":"1.0.9003B"}*//
 
 /* Background */
 
-.appMount-3lHmkl {
+.appMount-2yBXZl {
     background-image: url("https://i.imgur.com/TbJMDqV.png") !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
 }
 
 /*Transparency 0.0*/
-
-.activityFeed-1C0EmJ,
-.bg-h5JY_x,
-.card-7JP0BX,.card-FDVird:before,
-.channelTextArea-rNsIhG,
-.chat-3bRxxu,
-.container-16j22k,.container-1r6BKw,.container-1D34oG,.container-2wlB3z,
-.content-yTz4x3,
-.contentHoveredText-2D9B-x,
-.contentRegionScroller-26nc1e,
-.container-2OU7Cz,.container-iksrDt,.container-RYiLUQ,.container-PNkimc,.container-3w7J-x,
-.embedFull-2tM8--,
-.friendsTableBody-1ZhKif,
-.headerBar-UHpsPw,
-.header-1RC2Wb,
-.layers-3iHuyZ, .layer-3QrUeG,
-.members-1998pB,.members-1998pB>div,
-.messages-3amgkR,
-.messageGroupBlockedBtn-1PBBh-,
-.messageGroupBlocked-3wrQQX,
-.messagesWrapper-3lZDfY,
-.nowPlayingColumn-2sl4cE,
-.placeholderWrapper-3FaLtZ,
-.scrollableContainer-38zsVD,
-.scroller-1JbKMe, .scroller-2TZvBN, .scroller-9moviB, .scroller-1IIF0A,
-.sidebar-2K8pFh,
-.sidebarRegionScroller-3MXcoP,
-.theme-dark .container-2Thooq,
-.title-3qD0b-,
-.typing-3eiiL_, .typing-2GQL18,
-.wrapper-3UweLa,.wrapper-3NnKdC
+body,
+.standardSidebarView-E9Pc3j,
+.layer-86YKbF,
+.bg-1QIAus,
+.contentRegion-3HkfJJ,
+.container-ZMc96U.themed-Hp1KC_,.container-1NXEtd,.container-2o3qEW,.container-1oAagU,
+.embedFull-1HGV2S,
+.members-3WRCEx, .members-3WRCEx>div,
+.nowPlayingColumn-1eCBCN,
+.panels-3wFtMD,
+.privateChannels-oVe7HL,
+.scroller-3X7KbA,.scroller-WSmht3,.scrollableContainer-15eg7h,.scroller-29cQFV,
+.section-3G9aLW,.section-3G9aLW
 {
     background: rgba(0,0,0,0.0) !important;
 
 }
 
 /*Transparency 0.4*/
+.app-2CXKsg,
+.applicationStore-2nk7Lo,
+.channelTextArea-1FufC0,
+.chat-2ZfjoI,
+.contentRegionScroller-2_GT_N,
+.expandedFolderBackground-1kSAf6,
+.sidebar-1tnWFu,.sidebarRegionScroller-FXiQOh,
+.theme-dark .container-2cd8Mz,.theme-dark .inset-SbsSFp,
+.wrapper-1_HaEi,.wrapper-2RrXDg
 
-.activityFeed-28jde9,
-.applicationStore-1pNvnv,
-.appMount-14L89u,
-.app-2rEoOp,
-.channels-3g2vYe, 
-.container-3lnMWU,.container-2lgZY8,.container-3gCOGc,
-.contentRegion-3nDuYy,
-.divider-red span,
-.friends-header,
-.friends-table,
-.gameLibrary-TTDw4Y,
-.inner-zqa7da,
-.inset-GQDQYw,
-.layers-20RVFW, .layer-kosS71, 
-.outer-2IVh5n,
-.panels-j1Uci_,
-.privateChannels-1nO12o,
-.recentlyPlayedContainer-2F3MqS,
-.scrollableContainer-2NUZem,.scroller-1Bvpku,
-.sidebarRegion-VFTUkN,
-.standardSidebarView-3F1I7i,
-.theme-dark .member-3W1lQa:hover .content-OzHfo4,
-.title-qAcLxz,
-.wrapper-1Rf91z,.wrapper-3D2qGf
 {
     background: rgba(0,0,0,0.4) !important;
 }
+
 ::-webkit-scrollbar-thumb {
-    background-color: #7289da !important;
-}
-
-.messageGroupBlocked-3wrQQX {
-	display: none;
-}
-
-.bd-minimal .guilds-1SWlCJ {
-    width: 70px;
+    background-color: #0099ff !important;
 }
